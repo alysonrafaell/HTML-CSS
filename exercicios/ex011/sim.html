@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media  em HTML</title>
+</head>
+<style>
+   
+</style>
+<body>
+<H1>IMAGEM DINAMICA</H1>
+<P>MUDANÇA DE IMAGEMM</P>
+<picture>
+    <source media="(max-width:750px  )" srcset="imagens/imagem-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/imagem-M.png" type="image/png">
+  <img src="imagens/imagem-G.png" alt="imagem flexivel">
+   <!--DEUUUUU CERTOOOOO-->
+</picture>
+<h1>reproduzir musica</h1>
+<audio src="midia/rock.mp3" controls autoplay loop></audio>
+<!--PODE USAR TAMBEM <AUDIO  CONTROLS AUTOPLAY SRC="MIDIA/ROCK.MP3" TYPE="MIDIA/MPEG(SE FOR MP3 O FORMATO,OS OUTROS ONDE TEM MP3 USAR OGG OU WAV)"-->
+<!--AS VEZES O NAVEGADOR PODE NÃO RODAR A MUSICA NO SITE, POREM PODEMOS USAR MP3,OGG E WAV.-->
+<P> Ou podemos usar de outra forma o audio, usando o source:src.</P>
+<audio preload="metadata"autoplay controls loop>
+    <source src="midia/rock.mp3" type="midia/mpeg">
+    <!--<source src="midia/rock.wav" type="midia/wav">
+    <source src="midia/rock.ogg" type="midia/ogg">-->
+</audio>
+
+</body>
+</html>

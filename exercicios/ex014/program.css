@@ -1,0 +1,19 @@
+p{
+    text-align: justify;
+    font-size: 25px;
+}
+h1{
+    font-size: 50px;
+}
+body{
+    background-color: tomato;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+h1{
+    color: darkblue;
+    background-color: aliceblue;
+}
+h2{
+    color: yellow;
+}
