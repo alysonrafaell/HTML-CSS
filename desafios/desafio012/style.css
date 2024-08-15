@@ -111,8 +111,8 @@ strong{
    margin-right: 5px; 
    text-align: justify;
 }
-picture > .que{
-  text-align: center;
+.assunto > img{
+    width: 100%;
 
 }
 picture > img{
@@ -131,19 +131,20 @@ aside > img{
     border-radius: 8px 8px 0px 0px;
 }
 article{
-    text-indent: 10px;
+    line-height: 30px;
+    text-indent: 20px;
     font-family: Arial;
     padding: 10px;
     border-radius: 1px;
+   text-align: justify;
    background-color: #C5EBD6;
 }
-article > ul{
-    padding: 20px;
-    columns: 2;
-    list-style-type: '\2714\00A0\00A0';
-    list-style-position: inside;
+ul{
+    background-color: #C5EBD6;
+    padding: 5px;
+    margin: 10px;
+    
 }
-
 article > p{
     line-height: 30px;
     text-indent: 20px;
@@ -181,22 +182,20 @@ aside > .q{
     font-weight: bolder;
     color:#ffffff;
     font-family: Arial;
+}
+iframe{
+    display: block;
+    height: 397px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+    width:92%;
+    padding: 10px 20px 10px 20px;
+    height: 500px;
     
+   
 }
-
-.video{
-    background-color: #1a5a37;
-    margin: 0px 10px 30px 10px;
-    padding: 20px;
-    padding-bottom: 50%;
-    position: relative;
+.wwe{
+    background-color: #1A5C38;
+    padding: 13px 40px 13px 40px;
 }
-.video > iframe{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-}
-
 
